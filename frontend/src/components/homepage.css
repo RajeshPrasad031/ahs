@@ -1,0 +1,25 @@
+.ib {
+  display: inline-block;
+  border: 1px solid #cccccc;
+  margin: 30px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+img {
+  height: 100px;
+  width: 100ox;
+  cursor: pointer;
+}
+h6 {
+  background: #ccc;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
