@@ -1,17 +1,14 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router } from "react-router-dom";
-import Login from "./Login";
-import "./doctor.css";
-class DoctorHomepage extends Component {
+
+import "./all.css";
+import Navbar from "./DoctorNavbar";
+
+export default class DoctorHomepage extends Component {
   render() {
     return (
-      <Router>
-        <div>
-          <Login />
-        </div>
-      </Router>
+      <div>
+        <Navbar />
+      </div>
     );
   }
 }
-
-export default DoctorHomepage;

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./homepage.css";
+import "./all.css";
 import Doctor from "./images/doctor.png";
 import Patient from "./images/patients.png";
 import Hospital from "./images/hospital.png";

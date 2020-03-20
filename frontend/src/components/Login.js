@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import "./doctor.css";
+import "./all.css";
 export default class Login extends Component {
   render() {
     return (
-      <div>
+      <div className="loginForm">
         <form>
           <div className="form-group">
             <label for="exampleInputEmail1">

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import "./doctor.css";
+import "./all.css";
 
 export default class DoctorNavbar extends Component {
   render() {
