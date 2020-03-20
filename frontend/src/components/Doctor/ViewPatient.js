@@ -1,9 +1,11 @@
 import React, { Component } from "react";
+import Navbar from "./DoctorNavbar";
 
 class ViewPatient extends Component {
   render() {
     return (
       <div>
+        <Navbar />
         <form>
           <div className="form-group">
             <label for="exampleInputEmail1">
@@ -17,7 +19,7 @@ class ViewPatient extends Component {
             />
           </div>
           <div class="form-group">
-            <label for="exampleInputPassword1">Enter Patient Password</label>
+            <label for="exampleInputPassword1">Enter Patient Public Key</label>
             <input
               type="password"
               className="form-control"

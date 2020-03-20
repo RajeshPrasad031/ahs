@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
-export default class PatientHomepage extends Component {
+class PatientHomepage extends Component {
   render() {
     return (
       <div>
@@ -30,3 +30,5 @@ export default class PatientHomepage extends Component {
     );
   }
 }
+
+export default PatientHomepage;
