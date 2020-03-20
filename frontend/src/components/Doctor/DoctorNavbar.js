@@ -26,7 +26,7 @@ export default class DoctorNavbar extends Component {
             >
               Update Patient Record
             </Link>
-            <Link className="nav-item nav-link active" to="/logout">
+            <Link className="nav-item nav-link active" to="/">
               Log Out
             </Link>
           </div>
