@@ -1,27 +1,34 @@
 import React, { Component } from "react";
 import "./all.css";
-export default class Login extends Component {
+class Login extends Component {
+  constructor() {
+    super();
+    this.state = {
+      email: "",
+      password: ""
+    };
+  }
+
   render() {
     return (
       <div className="loginForm">
         <form>
           <div className="form-group">
-            <label for="exampleInputEmail1">
-              Enter Your Email-id or Address
-            </label>
+            <label for="Email1">Enter Your Email-id or Address</label>
             <input
+              name="email"
               type="email"
               className="form-control"
-              id="exampleInputEmail1"
-              aria-describedby="emailHelp"
+              value={this.state.email}
             />
           </div>
           <div class="form-group">
-            <label for="exampleInputPassword1">Enter Your Password</label>
+            <label for="Password">Enter Your Password</label>
             <input
+              name="password"
               type="password"
               className="form-control"
-              id="exampleInputPassword1"
+              value={this.state.password}
             />
           </div>
 
@@ -33,3 +40,5 @@ export default class Login extends Component {
     );
   }
 }
+
+export default Login;

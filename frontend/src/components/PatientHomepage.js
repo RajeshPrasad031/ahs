@@ -18,6 +18,9 @@ export default class PatientHomepage extends Component {
                 View Record
               </Link>
               <Link className="nav-item nav-link active" to="/">
+                Claim Insurance
+              </Link>
+              <Link className="nav-item nav-link active" to="/">
                 Log Out
               </Link>
             </div>
