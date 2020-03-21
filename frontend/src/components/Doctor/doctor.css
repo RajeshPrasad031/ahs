@@ -10,3 +10,16 @@ nav {
 .Button {
   margin-top: 10px;
 }
+.cell {
+  height: 20px;
+  width: 370px;
+  border: none;
+  border-bottom: 2px solid gray;
+}
+label {
+  height: 20px;
+  width: 370px;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}

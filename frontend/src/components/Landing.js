@@ -15,31 +15,31 @@ class Homepage extends Component {
       <div>
         <h6>Login As</h6>
         <div>
-          <Link to="/Doctor">
+          <Link to="/doctor">
             <img src={Doctor} className="ib" alt="Doctor" />
           </Link>
-          <Link to="/Patient">
+          <Link to="/patient">
             <img src={Patient} className="ib" alt="Patient" />
           </Link>
         </div>
 
         <div>
-          <Link to="/Hospital">
+          <Link to="/hospital">
             <img src={Hospital} className="ib" alt="Hospital" />
           </Link>
-          <Link to="/Pharmacy">
+          <Link to="/pharmacy">
             <img src={Pharmacy} className="ib" alt="Pharmacyt" />
           </Link>
-          <Link to="/Lab">
+          <Link to="/lab">
             <img src={Lab} className="ib" alt="Lab" />
           </Link>
         </div>
 
         <div>
-          <Link to="/H_Organizer">
+          <Link to="/health_Organizer">
             <img src={Health} className="ib" alt="Health Organizaton" />
           </Link>
-          <Link to="/Insurance">
+          <Link to="/insurance">
             <img src={Insurance} className="ib" alt="Insuramnce Company" />
           </Link>
         </div>
