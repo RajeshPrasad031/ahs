@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Navbar from "./DoctorNavbar";
+import Navbar from "./PharmacyNav";
 
 class ViewPatient extends Component {
   render() {
@@ -8,9 +8,7 @@ class ViewPatient extends Component {
         <Navbar />
         <form>
           <div className="form-group">
-            <label for="exampleInputEmail1">
-              Enter Patient Address/Email-id
-            </label>
+            <label for="Email">Enter Patient Address/Email-id</label>
             <input
               type="email"
               className="form-control"
@@ -27,7 +25,7 @@ class ViewPatient extends Component {
             />
           </div>
 
-          <button type="submit" className="btn btn-primary Button">
+          <button type="submit" className="btn btn-primary">
             Submit
           </button>
         </form>

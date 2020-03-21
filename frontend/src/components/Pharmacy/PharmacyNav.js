@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
-class PatientHomepage extends Component {
+class PharmacyNav extends Component {
   render() {
     return (
       <div>
@@ -13,21 +13,15 @@ class PatientHomepage extends Component {
               </Link>
               <Link
                 className="nav-item nav-link active"
-                to="/patient/viewRecord"
+                to="/pharmacy/viewPatientRecord"
               >
-                View Record
-              </Link>
-              <Link className="nav-item nav-link active" to="/">
-                Register Medicalaim
-              </Link>
-              <Link className="nav-item nav-link active" to="/">
-                Claim Insurance
+                View Patient Record
               </Link>
               <Link
                 className="nav-item nav-link active"
-                to="/patient/updateKey"
+                to="/pharmacy/updatePassword"
               >
-                Update Keys
+                Update Password
               </Link>
               <Link className="nav-item nav-link active" to="/">
                 Log Out
@@ -40,4 +34,4 @@ class PatientHomepage extends Component {
   }
 }
 
-export default PatientHomepage;
+export default PharmacyNav;
