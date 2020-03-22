@@ -29,6 +29,11 @@ import PharmacyIndex from "./components/Pharmacy/PharmacyHomepage";
 import ViewPatientPharma from "./components/Pharmacy/ViewPatient";
 import PharmaUpdatePassword from "./components/Pharmacy/UpdatePassword";
 
+import Lab from "./components/Labs/Lab";
+import LabIndex from "./components/Labs/LabHomepage";
+import LabViewPatient from "./components/Labs/ViewPatient";
+import LabUpdateRecord from "./components/Labs/UpdateRecord";
+import LabUpdatePassword from "./components/Labs/UpdatePassword";
 function App() {
   return (
     <Router>
@@ -73,6 +78,12 @@ function App() {
           path="/pharmacy/updatePassword"
           component={PharmaUpdatePassword}
         />
+
+        <Route exact path="/lab" component={Lab} />
+        <Route exact path="/lab/index" component={LabIndex} />
+        <Route exact path="/lab/viewPatient" component={LabViewPatient} />
+        <Route exact path="/lab/updateRecord" component={LabUpdateRecord} />
+        <Route exact path="/lab/updatePassword" component={LabUpdatePassword} />
 
         <Footer />
       </div>
